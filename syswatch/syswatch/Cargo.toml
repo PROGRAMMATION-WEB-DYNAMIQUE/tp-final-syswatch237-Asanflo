@@ -1,0 +1,12 @@
+[package]
+name = "syswatch"
+version = "2.0.0"
+authors = ["GROUPE"]
+edition = "2021"
+description = "SysWatch — Serveur TCP de surveillance et contrôle système à distance"
+
+[dependencies]
+sysinfo    = "0.30"
+chrono     = "0.4"
+whoami     = "1.5"
+local-ip-address = "0.6"
